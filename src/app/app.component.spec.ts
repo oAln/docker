@@ -19,7 +19,7 @@ describe('AppComponent', () => {
   it(`should have as title 'ng-test-docker'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
-    expect(app.title).toEqual('ng-test2-docker');
+    expect(app.title).toEqual('ng-test-docker');
   });
 
   it('should render title in a h1 tag', () => {
@@ -29,3 +29,20 @@ describe('AppComponent', () => {
     expect(compiled.querySelector('h1').textContent).toContain('Welcome to ng-test-docker!');
   });
 });
+
+
+// pipeline {
+//   agent any
+//   stages {
+//     stage('Test') {
+//           steps {
+//         input('Do you want to proceed?')
+//       }
+//     }
+//     stage('Build') {
+//           steps {
+//               echo 'Hi, GeekFlare. Starting to build the App.'
+//       }
+//     }
+//   }
+// }
