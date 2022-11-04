@@ -19,7 +19,7 @@ describe('AppComponent', () => {
   it(`should have as title 'ng-test-docker'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
-    expect(app.title).toEqual('ng-test-docker');
+    expect(app.title).toEqual('ng-test2-docker');
   });
 
   it('should render title in a h1 tag', () => {
