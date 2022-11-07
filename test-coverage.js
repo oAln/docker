@@ -24,10 +24,9 @@ function syncReadFile(filename) {
     console.log('thresold reached');
   } else {
     console.log(`Coverage for functions ${testCoverage} does not meet global threshold ${thresold}`);
+    process.exit(1);
   }
   console.log(testCoverage);
-
-  return arr;
 }
 
 syncReadFile('./unit-test-report.txt');
