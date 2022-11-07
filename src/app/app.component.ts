@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ng-test-docker';
+  heroDetailService: any;
+  save(): void {
+    console.log('dummy functions');
+
+  }
+
+  cancel() {
+    console.log('dummy functions');
+  }
 }
