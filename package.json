@@ -6,6 +6,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "test-coverage": "node test-coverage.js",
     "test": "ng test --no-watch --code-coverage",
     "test1": "ng test --watch=false --browsers ChromeHeadless",
     "test2": "ng test --code-coverage  --source-map",
